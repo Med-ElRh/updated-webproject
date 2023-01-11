@@ -1,0 +1,449 @@
+* {
+    box-sizing:border-box;
+}
+
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.homepageBackground {
+    background-image:url(../images/gamingsetup.png);
+    background-size:cover;
+}
+
+body {
+    background-color:black;
+    font-family:'Open Sans', sans-serif;
+}
+
+ul.navbar-nav a:hover {
+    color:#2C74B3 !important;
+}
+
+ul.navbar-nav a:focus {
+    color:#2C74B3 !important;
+}
+.navigationbar_ {
+    background-color: transparent;
+    width:100%;
+}
+@media all and (min-width: 992px){
+    .container-fluid {
+        padding: 1% 12%;
+    }
+    .footerDescription{
+        margin-right:300px;
+        width:30%;
+    }
+    .openbtn {
+        display:none;
+    }
+}   
+
+.navitems_ {
+    margin-left:15%;
+    justify-content: space-between;
+}
+
+.shopBrand {
+    width:50px;
+    margin-left:20px;
+    margin-top:0;
+    display:block;
+    filter:drop-shadow(2px 4px 7px black);
+    float:left;
+}
+
+.navbar-item {
+    font-family:'Montserrat', sans-serif;
+    font-weight:700;
+    margin-left: 20px;
+    margin-right:20px;
+}
+
+.navbar-item a{
+    color:white;
+}
+
+.navbar-toggler {
+    border:none;
+}
+
+.dropdown-menu {
+    background-color:hsl(212, 21%, 14%);
+    line-height:3;
+}
+
+.dropdown a {
+    color:white;
+}
+
+.navbar-toggler.navbar-toggler-icon {
+    color:white !important;
+}
+
+@media (max-width: 991px) {
+    .navbar-nav {
+        text-align:center;
+        border-top: 1px solid #9F8772;
+        line-height:2; 
+    }
+
+    .shopBrand {
+        margin-bottom: 10px;
+    }
+
+    .openbtn {
+        display:inline-block;
+      }
+}
+
+@media (max-width: 991px) {
+  .dropdown-menu .dropdown-menu{
+      margin-left:0.7rem; margin-right:0.7rem; margin-bottom: .5rem;
+  }
+
+  .openbtn {
+    display:inline;
+  }
+}
+
+.navbar-brand {
+    font-family:'Kalam', cursive;
+    font-weight:700;
+    text-transform: uppercase;
+    color:white;
+    margin-left:25px;
+    margin-right:0;
+    font-size:30px;
+    padding-top:8px;
+}
+
+.navbar .navbar-brand:hover {
+    color:white;
+}
+
+.navbar .navbar-brand:focus {
+    color:white;
+}
+
+.subtitle_ {
+    font-family:'Montserrat', sans-serif;
+    font-size:12px;
+    display:inline-block;
+    position:relative;
+    top: 15px;
+    right:83px;
+
+}
+
+
+.homepage_ {
+    width:100%;
+    margin:auto;
+    margin-top: 0;
+    background-size:cover;
+}
+
+
+.welcome_ {
+    display:inline-block;
+    color: rgb(255, 255, 255);
+    margin-top:120px;
+    font-size:750%;
+    text-transform:uppercase;
+    margin-bottom: 60px;
+    font-weight:700;
+    font-family:'Montserrat', sans-serif;
+}
+
+@media all and (min-width:600px) and (max-width:991px) {
+    .welcome_ {
+        display:inline-block;
+        color: rgb(255, 255, 255);
+        margin-top:60px;
+        font-size:450%;
+        text-transform:uppercase;
+        margin-bottom: 90px;
+    }
+}
+
+@media all and (max-width:599px){
+    .welcome_ {
+        display:inline-block;
+        color:white;
+        margin-top:60px;
+        font-size:300%;
+        text-transform:uppercase;
+        margin-bottom:90px;
+        font-weight:700;
+    }
+}
+
+
+.welcomeDescription {
+    display:inline-block;
+    width:100%;
+    color:white;
+    font-family:'Montserrat', sans-serif;
+    font-weight:500;
+    font-size:20px;
+    width:70%;
+    line-height:2.3;
+    margin-bottom: 80px;
+    margin-left:25px;
+
+}
+
+
+.learnmore_ {
+    width:26%;
+    color:white;
+    padding:20px;
+    text-transform:uppercase;
+    margin-left:15px;
+    font-family:'Montserrat', sans-serif;
+    font-weight:700;
+    font-size:20px;
+    margin-bottom:120px;
+    background-color: #A555EC;
+    border-color:#A555EC;
+    display:block;
+
+}
+
+@media all and (max-width:991px){
+    .container{
+        width:100%;
+    }
+    
+    .homepage_ {
+        text-align:center;
+    }
+    .learnmore_ {
+        margin-left:auto;
+        margin-right:auto;
+        width:60%;
+    }
+}
+
+.carouselTitle_ {
+    margin-top:150px;
+    color:#FAF8F1;
+    border-bottom:3px solid #A555EC;
+    margin-bottom:3rem;
+}
+
+@media screen and (min-width:1024px){
+.carousel button{
+    width:50px;
+}
+}
+
+.carousel button:hover {
+    background-color: rgba(169, 169, 169, 1);
+}
+
+
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .card img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+.carousel-item {
+    display:flex;
+}
+
+.customCard img {
+    width:40%;
+    margin-bottom:30px;
+}
+
+.customCard {
+    text-align:center;
+    padding:2em;
+    align-items:center;
+    width:500px;
+    height:400px;
+    margin-left: 3em;
+    margin-right:3em;
+    margin-top:auto;
+    margin-bottom:20px;
+    color:white;
+    position:relative;
+    transition: position 1s;
+    border: 1px solid rgba(43,42,42,0.32);
+}
+
+.customCard .cardTitle {
+    font-family:'Montserrat', sans-serif;
+    width:70%;
+    margin:auto auto 50px auto;
+}
+
+.produitsTendance a {
+    text-decoration:none;
+    color:white;
+}
+
+.produitsTendance a:hover{
+    color:white;
+}
+
+.produitsTendance {
+    margin-bottom:200px;
+}
+
+.customCard:hover {
+    position:relative;
+    bottom:7px;
+    box-shadow:0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.2);
+
+}
+.produitsTendance .container-fluid {
+    padding:0;
+}
+
+footer {
+    background-color:#2D033B;
+}
+
+.footerDescription {
+    width:100%;
+}
+
+.footerDescription p {
+    font-size:13px;
+}
+
+.footerCategories a {
+    text-decoration:none;
+}
+
+.footerCategories a:hover {
+    text-decoration:underline;
+}
+
+hr {
+    align-items:center;
+    width:40%;
+}
+
+.contactLinks{
+    margin-top:25px;
+}
+
+.contactLinks a {
+    margin-right:20px;
+}
+
+@media screen and (max-width:575px) {
+    .carouselTitle_ {
+        text-align: center;
+        padding-bottom:15px;
+    }
+}
+
+.kitsune_ {
+    font-family:'Montserrat',sans-serif;
+    font-weight:700;
+    text-transform:uppercase;
+    font-size:1.5rem;
+}
+
+@media screen and (max-width: 1167px) {
+    .customCardRow{
+        justify-content: center;
+        }
+    }
+
+.sidebar {
+    height: 100%; 
+    width: 0; 
+    position: fixed;
+    z-index: 1; 
+    top: 0;
+    right: 0;
+    background-image: linear-gradient(220deg, black, #460C68, black);
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+    
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    font-family:'Montserrat', sans-serif;
+  }
+  
+  .sidebar a:hover {
+    color: #2C74B3;
+  }
+
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    font-size: 36px;
+  }  
+
+  .sidebarItems {
+    margin-top:20px;
+  }
+
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    background-color:none;
+    margin-right:13px;
+    background:none;
+  }
+
+  .login-n-cart {
+    position:absolute;
+    bottom:15px;
+    display:block;
+    align-items: center;
+    margin:auto;
+    width:100%;
+  }
+
+  .cart {
+    height: 100%; 
+    width: 0; 
+    position: fixed;
+    z-index: 1; 
+    top: 0;
+    right: 0;
+    background-image: linear-gradient(220deg, black, #460C68, black);
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+    
+  }
+  
+  
+  .cart .closecartbtn {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    font-size: 36px;
+  }  
+
+  .sidebarItems {
+    margin-top:20px;
+  }
